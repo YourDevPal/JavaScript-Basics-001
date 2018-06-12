@@ -12,5 +12,5 @@ buttonElement.addEventListener('click', function() {
 
     // Stich the parts of the string together to create one long string. Set this 
     // as the inner HTML of the result element
-    resultElement.innerHTML = 'Hello, my name is <b>' + message + '</b>';
+    resultElement.innerHTML = 'Hello, my name is <em>' + message + '</em>';
 });
